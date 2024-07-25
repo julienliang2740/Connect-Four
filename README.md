@@ -5,3 +5,8 @@ Text-based connect
 Usage:
 
 ```python3 main.py```
+
+## Demo ##
+
+![image](https://github.com/user-attachments/assets/9c71ccaf-106d-4c19-8d2e-e7f42bbde2df)
+
