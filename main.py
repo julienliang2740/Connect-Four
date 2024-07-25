@@ -1,3 +1,6 @@
+from colorama import Fore, Style, init
+init()
+
 class Game:
     def __init__(self, length, height, win_condition):
         board = []
@@ -23,7 +26,13 @@ class Game:
         for i in range(0, self.height):
             line = "|"
             for j in range(0, self.length):
-                line += (' ' + self.board[j][i] + ' |')
+                sym = self.board[j][i]
+                output = ""
+                if (sym == 'X'):
+                    output = Fore.GREEN + sym + Style.RESET_ALL
+                else:
+                    output = Fore.RED + sym + Style.RESET_ALL
+                line += (' ' + output + ' |')
             print(line)
             print_bar()
     
