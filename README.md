@@ -1,2 +1,3 @@
 # Connect-Four
-Text-based connect four (did it as a spreedrun challenge)
+Text-based connect
+(I did this as a speedrun challenge: implemented and completed tested in 42 minutes)
